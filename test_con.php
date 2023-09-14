@@ -4,4 +4,4 @@ require_once 'config.php';
 $db = new db();
 $q = "SELECT * FROM employees";
 $aset = $db->manual_query($q);
-echo json_encode($aset);
+echo json_decode($aset);
