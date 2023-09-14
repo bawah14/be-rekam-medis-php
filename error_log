@@ -1,0 +1,47 @@
+[28-Aug-2023 03:49:33 UTC] PHP Warning:  require_once(config/db.php): Failed to open stream: No such file or directory in /home/dasdevcl/public_html/api/test_con.php on line 2
+[28-Aug-2023 03:49:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config/db.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/dasdevcl/public_html/api/test_con.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/dasdevcl/public_html/api/test_con.php on line 2
+[28-Aug-2023 03:50:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dasdevcl_rekam_medis_mysql'@'localhost' (using password: YES) in /home/dasdevcl/public_html/api/config.php:15
+Stack trace:
+#0 /home/dasdevcl/public_html/api/config.php(15): mysqli_connect()
+#1 /home/dasdevcl/public_html/api/test_con.php(3): db->__construct()
+#2 {main}
+  thrown in /home/dasdevcl/public_html/api/config.php on line 15
+[28-Aug-2023 03:51:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dasdevcl_rekam_medis_mysql'@'localhost' (using password: YES) in /home/dasdevcl/public_html/api/config.php:15
+Stack trace:
+#0 /home/dasdevcl/public_html/api/config.php(15): mysqli_connect()
+#1 /home/dasdevcl/public_html/api/test_con.php(4): db->__construct()
+#2 {main}
+  thrown in /home/dasdevcl/public_html/api/config.php on line 15
+[28-Aug-2023 03:55:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/dasdevcl/public_html/api/config.php:38
+Stack trace:
+#0 /home/dasdevcl/public_html/api/test_con.php(6): db->manual_query()
+#1 {main}
+  thrown in /home/dasdevcl/public_html/api/config.php on line 38
+[28-Aug-2023 04:02:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/dasdevcl/public_html/api/config.php:38
+Stack trace:
+#0 /home/dasdevcl/public_html/api/test_con.php(6): db->manual_query('select * from e...')
+#1 {main}
+  thrown in /home/dasdevcl/public_html/api/config.php on line 38
+[28-Aug-2023 04:05:48 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dasdevcl/public_html/api/config.php on line 40
+[28-Aug-2023 04:05:58 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dasdevcl/public_html/api/config.php on line 40
+[28-Aug-2023 04:06:40 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dasdevcl/public_html/api/config.php on line 40
+[28-Aug-2023 04:25:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/dasdevcl/public_html/api/config.php:38
+Stack trace:
+#0 /home/dasdevcl/public_html/api/test_con.php(6): db->manual_query('SELECT * FROM e...')
+#1 {main}
+  thrown in /home/dasdevcl/public_html/api/config.php on line 38
+[28-Aug-2023 04:28:44 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/dasdevcl/public_html/api/config.php on line 38
+[28-Aug-2023 04:29:06 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/dasdevcl/public_html/api/config.php on line 38
+[28-Aug-2023 04:29:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/dasdevcl/public_html/api/config.php:38
+Stack trace:
+#0 /home/dasdevcl/public_html/api/test_con.php(6): db->manual_query('SELECT * FROM e...')
+#1 {main}
+  thrown in /home/dasdevcl/public_html/api/config.php on line 38
+[28-Aug-2023 04:32:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/dasdevcl/public_html/api/config.php:38
+Stack trace:
+#0 /home/dasdevcl/public_html/api/test_con.php(6): db->manual_query('SELECT * FROM e...')
+#1 {main}
+  thrown in /home/dasdevcl/public_html/api/config.php on line 38
